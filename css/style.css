@@ -143,4 +143,15 @@ body {
     .image-box img{
         max-width: 150px;
     }
+
+    .course{
+        margin-bottom: 1rem;
+
+    }
+
+    .engineering-container , .math-container, .technology-container,.science-container{
+        height: 500px;
+    }
+
+
 }
