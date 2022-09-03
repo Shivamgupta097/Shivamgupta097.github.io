@@ -153,5 +153,10 @@ body {
         height: 500px;
     }
 
+    .title{
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
 
 }
