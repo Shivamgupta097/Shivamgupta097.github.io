@@ -48,10 +48,11 @@ body {
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .image-box--what > img {
-    width: 80%;
+    width: 70%;
     /* max-height:300px; */
     margin-bottom: 1rem;
     height: 400px;
@@ -63,7 +64,8 @@ body {
 
 .image-box img{
     width: 80%;
-    height: 200px;
+    /* height: 200px; */
+    object-fit: cover;
 }
 
 .book {
@@ -75,6 +77,7 @@ body {
 .technology-container {
     background-color: #3e34e2;
     color: white;
+
     
     padding: 3rem 1rem;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
@@ -135,5 +138,9 @@ body {
     }
     .banner-image {
         display: none;
+    }
+
+    .image-box img{
+        max-width: 150px;
     }
 }
